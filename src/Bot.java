@@ -38,6 +38,7 @@ public class Bot {
 	public void run() throws Exception {
 		// controle de off-set, isto �, a partir deste ID ser� lido as mensagens
 		// pendentes na fila
+
 		int m = 0;
 		
 		ReplyKeyboardMarkup keyboardLocation = new ReplyKeyboardMarkup(
